@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 04</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Paragraph Styles */
+        .p1 {
+            background-color: lightgrey;
+        }
+
+        .p2 {
+            color: aqua;
+            font-size: large;
+        }
+
+        .p3 {
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        /* List Styles */
+        ul {
+            list-style-type: square;
+            background-color: lightgreen;
+        }
+
+        ol {
+            background-color: lightsalmon;
+        }
+
+        dl {
+            background-color: lightseagreen;
+        }
+
+        /* Inline Element Styles */
+        span {
+            background-color: lightgray;
+        }
+
+        #highlight {
+            background-color: lightsalmon;
+        }
+
+        /* Container Styles */
+        .container {
+            background-color: lightcoral;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        #list-container {
+            background-color: lightpink;
+        }
+
+        /* Link Styles */
+        a {
+            color: #ff6685;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Links -->
+    <a href="https://www.youtube.com/" target="_blank">Go to YouTube</a>
+    <br>
+    <a href="#list-container">Jump to List Container</a>
+
+    <!-- Lists -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <h2>Definition List</h2>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Latte</dd>
+        <dd>Cappuccino</dd>
+        <dt>Shakes</dt>
+        <dd>Mango</dd>
+        <dd>Apple</dd>
+    </dl>
+
+    <!-- Block and Inline Elements -->
+    <h2>Paragraphs</h2>
+    <p class="p1">This is a paragraph with a light grey background.</p>
+    <p class="p2">This paragraph has aqua text and a large font size.</p>
+    <p class="p3">This paragraph is bold and extra-large.</p>
+
+    <h2>Spans</h2>
+    <span>This is an inline span element.</span>
+    <span id="highlight">This span has a highlighted background.</span>
+
+    <!-- Divs and Containers -->
+    <div class="container">
+        <h2>Container Example</h2>
+        <p>This is a div with a light coral background.</p>
+    </div>
+
+    <div id="list-container">
+        <h2>List Container</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <ol type="a">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Latte</dd>
+            <dd>Cappuccino</dd>
+            <dt>Shakes</dt>
+            <dd>Mango</dd>
+            <dd>Apple</dd>
+        </dl>
+    </div>
+</body>
+
+</html>
