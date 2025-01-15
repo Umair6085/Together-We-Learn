@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 05 - Tables</title>
+    <style>
+        /* General Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        th {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Basic Table Example -->
+    <h1>Basic Table</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Marks</th>
+            <th>Subjects</th>
+        </tr>
+        <tr>
+            <td>Umair</td>
+            <td>12</td>
+            <td>80%</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>10</td>
+            <td>88%</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>Usman</td>
+            <td>12</td>
+            <td>89%</td>
+            <td>Urdu</td>
+        </tr>
+    </table>
+
+    <!-- Column Span Example -->
+    <h1>Column Span</h1>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Smith</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Doe</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <!-- Row Span Example -->
+    <h1>Row Span</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>John</td>
+            <td>Smith</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Age</th>
+            <td>20</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td colspan="2">32</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
