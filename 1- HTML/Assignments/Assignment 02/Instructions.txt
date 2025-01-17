@@ -1,0 +1,12 @@
+1- Create a index.html page.
+2- In Navbar page create two links which redirects to table.html and form.html
+3. The design must be as same as in the images.
+4. Your assignment should have three pages must 
+	1. index.html
+	2. table.html
+	3. form.html
+5. All the pages should be connected using links (anchor tag).
+6. Use Semantic Tags.
+7. Deploy it on Surge. Otherwise your assignment not considered.
+
+Happy Coding!
