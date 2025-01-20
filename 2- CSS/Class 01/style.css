@@ -1,0 +1,38 @@
+.body1{
+    /* background-image: url("./Media/img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-color: antiquewhite; */
+    background: scroll url("./Media/img_tree.png") right top antiquewhite no-repeat ;
+}
+
+body p.one{
+    /* border-style: dotted;
+    border-width: 5px;
+    border-color: aqua; */
+    /* border: 5px dotted aqua; */
+    border-bottom: 5px dotted aqua;
+}
+
+body p.two{
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: lightcoral; */
+    border: 3px solid lightcoral;
+    /* border-radius: 3px 10px 15px 20px; */
+    border-radius: 50px;
+}
+
+body p.three{
+    /* border-style: double;
+    border-width: 3px;
+    border-color: lightgreen; */
+    border: 3px double lightgreen;
+    border-radius: 15px;
+}
+
+body p.four{
+    /* border-style:none; */
+    border-style:hidden;
+}
