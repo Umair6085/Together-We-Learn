@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Complex Table</h1>
+    <p>Practice creating a complex table with rowspan, colspan, and nested tables.</p>
+
+    <table>
+        <!-- Main Table Header -->
+        <thead>
+            <tr>
+                <th rowspan="2">#</th>
+                <th colspan="3">Student Information</th>
+                <th colspan="2">Scores</th>
+                <th rowspan="2">Remarks</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Age</th>
+                <th>Math</th>
+                <th>Science</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <!-- Row 1 -->
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>10</td>
+                <td>15</td>
+                <td>85</td>
+                <td>90</td>
+                <td>Excellent</td>
+            </tr>
+            <!-- Row 2 with rowspan -->
+            <tr>
+                <td>2</td>
+                <td rowspan="2">Jane Smith</td>
+                <td rowspan="2">9</td>
+                <td rowspan="2">14</td>
+                <td>75</td>
+                <td>80</td>
+                <td>Good</td>
+            </tr>
+            <!-- Continuation of Row 2 -->
+            <tr>
+                <td>3</td>
+                <td>88</td>
+                <td>92</td>
+                <td>Very Good</td>
+            </tr>
+
+            <!-- Row 4 with a nested table -->
+            <tr>
+                <td>4</td>
+                <td colspan="3">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>History</td>
+                                <td>78</td>
+                            </tr>
+                            <tr>
+                                <td>Geography</td>
+                                <td>82</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>84</td>
+                <td>89</td>
+                <td>Good</td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer -->
+        <tfoot>
+            <tr>
+                <td colspan="7">End of Table</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
