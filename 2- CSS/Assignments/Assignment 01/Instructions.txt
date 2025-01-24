@@ -1,0 +1,6 @@
+1- Create a index.html file 
+2- Make an exact design as in the image.
+3- Use the images like bg.jpg and iphone.png for the design.
+4- Deploy it on Surge.
+
+Happy Coding!❤️
